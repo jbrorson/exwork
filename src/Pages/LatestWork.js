@@ -1,9 +1,10 @@
 import React from 'react';
+import Title from '../Components/Title';
 
 function LatestWork() {
   return (
-    <div>
-      My portfolio
+    <div className="Portfolio">
+      <Title title={"Latest work"} span="Latest work" />
     </div>
   )
 }
