@@ -4,7 +4,7 @@ import Title from '../Components/Title';
 function Contact() {
   return (
     <div className="Contact">
-      <Title title={"Get in touch"} span="Get in touch" />
+      <Title title={"Contact"} span="Contact" />
       <form className="form">
         {/* <h1>Get in touch with me</h1> */}
         <div>
