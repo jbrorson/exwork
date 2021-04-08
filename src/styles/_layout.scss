@@ -7,7 +7,11 @@
     border-right: 2px solid #143250;
     z-index: 2;
     color: #fff;
+    @media screen and (max-width: 1000px){
+      transform: translateX(-100%);
+    }
   }
+  
 
   .main-content{
     width: 80%;
@@ -18,6 +22,16 @@
     position: relative;
     .content{
       margin: 5rem 15rem;
+      @media screen and (max-width: 1000px){
+        margin: 2rem 8rem;
+      }
+      @media screen and (max-width: 411px){
+        margin: 2rem 3rem;
+      }
+    }
+    @media screen and (max-width: 1000px){
+      width: 100%;
+      margin: 0;
     }
   }
 }
