@@ -1,3 +1,4 @@
+import React, { setState, useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
@@ -7,10 +8,21 @@ import LatestWork from './Pages/LatestWork';
 import './App.scss';
 
 function App() {
+  const [hamToggle, setHamToggle] = useState(false);
+
+  const hamClick = () => {
+    setHamToggle(!hamToggle)
+  }
+
   return (
     <div className="App">
-      <div className="sidebar">
+      <div className={`sidebar ${hamToggle ? 'ham-toggle' : ''}`}>
         <Navbar />
+      </div>
+      <div className="nav-btn" onClick={hamClick}>
+        <div className="lines-1"></div>
+        <div className="lines-2"></div>
+        <div className="lines-3"></div>
       </div>
       <div className="main-content">
         <div className="content">
