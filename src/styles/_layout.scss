@@ -16,5 +16,8 @@
     min-height: 100vh;
     display: grid; 
     position: relative;
+    .content{
+      margin: 5rem 15rem;
+    }
   }
 }

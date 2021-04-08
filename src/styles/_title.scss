@@ -1,0 +1,36 @@
+.Title {
+  text-transform: uppercase; 
+  font-size: 2rem;
+  position: relative;
+  line-height: auto;
+  
+  &::before{
+    content: "";
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-color: #2f4c6a5d;
+    width: 6rem;
+    height: .4rem;
+    border-radius: 50px; 
+}
+  &::after{
+    content: "";
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-color: #2f4c6a;
+    width: 3rem;
+    height: .4rem;
+    border-radius: 50px;
+  }
+  span{
+    position: absolute;
+    line-height: 1.6;
+    top: 15%;
+    left: 0;
+    font-size: 5rem;
+    opacity: 0.07;
+   
+  }
+}
