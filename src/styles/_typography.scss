@@ -1,0 +1,48 @@
+.Home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.hero-text{
+  color: inherit;
+  text-align: center;
+  font-size: 3rem;
+  // span{
+  //   color: #00203FFF;
+  // }
+}
+
+.h-sub-text {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.github {
+  font-size: 3rem;
+  cursor: pointer; 
+  padding-right: 10px;
+}
+
+.github:hover {
+  font-size: 3.1rem;
+  color: #454444;
+}
+
+.linkedin {
+  font-size: 3rem;
+  cursor: pointer; 
+  padding-left: 10px;
+}
+
+.linkedin:hover {
+  font-size: 3.1rem;
+  color: #255be6;
+}
