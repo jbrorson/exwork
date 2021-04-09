@@ -1,9 +1,18 @@
 /*
-  --bg: #f7f7f7;
-  --sidebar: #00203FFF;
-  --font: #282828;
-  --main-border-color: #143250;
-  --font-color-nav: #ADEFD1FF;
+
+  --font-family: 'M PLUS Rounded 1c', sans-serif;
+  --Main-background: #f7f7f7;
+  --sidebar-color: #2f4c6a;
+  --Font-color: #282828;
+  --Main-border-color: #143250;
+  --Font-color-nav: #ADEFD1FF;
+  --Button-color: #2f4c6a;
+  --Button-color-hover: #2f4c6ae5;
+
+  --letter-spacing: 0.5px;
+  --font-size: 1.2rem;
+  --line-height: 2.2;
+
   
   
     "@fortawesome/fontawesome-svg-core"
