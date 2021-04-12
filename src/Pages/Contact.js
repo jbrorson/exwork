@@ -1,20 +1,25 @@
 import React from 'react'
 import Title from '../Components/Title';
-import avatar from '../images/avatar.jpg';
+// import avatar from '../images/avatar.jpg';
 
 function Contact() {
   return (
-    <div className="Contact">
+    <main className="Contact App">
       <Title title={"Contact"} span="Contact" />
       <div className="form-wrapper">
+        <div className="form-img">
+
+        </div>
+
         <form className="form">
           <div className="form-grid">
+            <h2>Reach out to me by filling out this form</h2>
             <p>
               <label>Name</label>
               <input
                 type="text"
                 name="text"
-                placeholder="Name">
+                placeholder="Your name">
               </input>
             </p>
             <p>
@@ -22,7 +27,7 @@ function Contact() {
               <input
                 type="email"
                 name="text"
-                placeholder="Email">
+                placeholder="Your email">
               </input>
             </p>
             <p>
@@ -30,20 +35,16 @@ function Contact() {
               <textarea
                 className="textarea"
                 type="text"
-                placeholder="Message">
+                placeholder="Your message here">
               </textarea>
             </p>
           </div>
           <div className="btn-holder">
             <button type="submit">Send message</button>
           </div>
-
-
         </form>
-        <div className="form-img"></div>
-        {/* <img src={avatar} /> */}
       </div>
-    </div>
+    </main>
   )
 }
 
