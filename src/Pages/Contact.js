@@ -36,7 +36,7 @@ const Contact = () => {
 
   return (
     <main className="Contact">
-      <Title title={"Contact"} span="Contact" />
+      <Title title={"Contact me"} span="Contact me" />
       <div className="form-wrapper">
         <div className="form-img">
 

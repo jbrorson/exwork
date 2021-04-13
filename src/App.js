@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import LatestWork from './Pages/LatestWork';
+import Cv from './Pages/Cv';
 import './App.scss';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/work" component={LatestWork} />
+            <Route path="/cv" component={Cv} />
           </Switch>
         </div>
       </div>

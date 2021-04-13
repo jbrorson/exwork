@@ -1,13 +1,14 @@
 import React from 'react';
-import avatar from '../images/avatar.jpg';
+// import avatar from '../images/avatar.jpg';
 import { NavLink } from 'react-router-dom';
+import cartoon from '../images/cartoon.png';
 
 function Navbar() {
   return (
     <div className="Navbar">
       <nav className="nav">
         <div className="profile">
-          <img src={avatar} alt="Profile avatar" />
+          <img src={cartoon} alt="Profile avatar" />
         </div>
         <ul className="nav-items">
           <li className="nav-item">
@@ -17,8 +18,13 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink to="/about" exact activeClassName="active">
-              About
+              About & Skills
             </NavLink>
+            <li className="nav-item">
+              <NavLink to="/cv" exact activeClassName="active">
+                Timeline
+            </NavLink>
+            </li>
           </li>
           <li className="nav-item">
             <NavLink to="/work" exact activeClassName="active">

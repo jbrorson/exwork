@@ -16,6 +16,7 @@ function Home() {
           Hej alla jag är Josefine, en frontend utvecklare baserad i vackra stockholm, sverige.
           Hej alla jag är Josefine, en frontend utvecklare baserad i vackra stockholm, sverige.
         </p>
+        {/* <button>Download cv</button> */}
         <div className="icons">
           <FontAwesomeIcon icon={faGithub} className="github" />
           <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
