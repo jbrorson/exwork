@@ -35,56 +35,55 @@ const Contact = () => {
   };
 
   return (
-    <main className="Contact">
+    <>
       <Title title={"Contact me"} span="Contact me" />
-      <div className="form-wrapper">
-        <div className="form-img">
-
+      <main className="Contact">
+        <div className="form-wrapper">
+          <div className="form-img"></div>
+          <form className="contactForm" id="contactForm" onSubmit={handleSubmit}>
+            <div className="form-grid">
+              <h2>Reach out to me by filling out this form</h2>
+              <p>
+                <label>Name</label>
+                <input
+                  placeholder="Your name"
+                  id="name"
+                  type="text"
+                  name="text"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </p>
+              <p>
+                <label>Email</label>
+                <input
+                  placeholder="Your email"
+                  id="email"
+                  type="email"
+                  name="text"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </p>
+              <p>
+                <label>Message</label>
+                <textarea
+                  placeholder="Your message here"
+                  id="message"
+                  className="textarea"
+                  type="text"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                />
+              </p>
+            </div>
+            <div className="btn-holder">
+              <button type="submit" style={{ background: loader ? "#ccc" : "#2f4c6a" }}>Send message</button>
+            </div>
+          </form>
         </div>
-
-        <form className="form" id="contactForm" onSubmit={handleSubmit}>
-          <div className="form-grid">
-            <h2>Reach out to me by filling out this form</h2>
-            <p>
-              <label>Name</label>
-              <input
-                placeholder="Your name"
-                id="name"
-                type="text"
-                name="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </p>
-            <p>
-              <label>Email</label>
-              <input
-                placeholder="Your email"
-                id="email"
-                type="email"
-                name="text"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </p>
-            <p>
-              <label>Message</label>
-              <textarea
-                placeholder="Your message here"
-                id="message"
-                className="textarea"
-                type="text"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-              />
-            </p>
-          </div>
-          <div className="btn-holder">
-            <button type="submit" style={{ background: loader ? "#ccc" : "#2f4c6a" }}>Send message</button>
-          </div>
-        </form>
-      </div>
-    </main>
+      </main>
+    </>
   )
 }
 

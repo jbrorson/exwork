@@ -1,5 +1,7 @@
 .App {
   .sidebar {
+    top: 0;
+    bottom:0;
     width: 20%;
     height: 100vh;
     background-color: #2f4c6a;
@@ -14,6 +16,7 @@
     }
     @media screen and (max-width: 411px){
       width: 80%;
+      left: 0;
     }
   }
   .ham-toggle{
@@ -22,29 +25,31 @@
     }
   }
 
-  .main-content{
-    width: 80%;
-    margin-left: 20%;
-    background-color: #f7f7f7;
-    min-height: 100vh;
-    display: grid; 
-    position: relative;
-    .content{
-      margin: 5rem 15rem;
-      @media screen and (max-width: 1000px){
-        margin: 2rem 8rem;
-      }
-      @media screen and (max-width: 411px){
-        margin: 2rem 3rem;
+  // Denna styling måste ändras om det ska bli snyggt i mobile view.. 
+//   .main-content{
+//     width: 80%;
+//     margin-left: 20%;
+//     background-color: #f7f7f7;
+//     min-height: 100vh;
+//     display: grid; 
+//     position: relative;
+//     @media screen and (max-width: 411px){
+//       width: 100%;
+//       margin-left: 0;
+//     }
+//   }
+// }
 
-      }
-    }
-    @media screen and (max-width: 1000px){
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-}
+// .content{
+//   margin: 5rem 15rem;
+//   @media screen and (max-width: 1000px){
+//     margin: 2rem 8rem;
+//   }
+//   @media screen and (max-width: 411px){
+//     margin: 2rem 3rem;
+
+//   }
+// }
 
 .nav-btn{
   position: absolute;
@@ -80,4 +85,4 @@
       top: 4%;
     }
   }
-}
+}}

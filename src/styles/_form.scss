@@ -1,43 +1,53 @@
-.Contact .App{
-  // min-width: 800px;
-  // margin-left: 0;
-  // width: 100%;
-  margin: 2rem;
+.Contact{
+  left: 24%;
+  display: flex; 
+  justify-content: center;
+  margin-bottom: 4rem;
+  min-height: 700px;
+  @media screen and (max-width: 1100px){
+    max-height: auto;
+  }
+  @media screen and (max-width: 411px){
+    height: 100vh;
+    min-width: 100%;
+  }
 }
 
-// .main-content{
-//   margin-left: 0;
-// }
-
 .form-wrapper{
-  min-width: 90%;
+  width: 60%;
   display: grid; 
+  margin-left: 20%;
+  padding-bottom: 2rem;
   grid-template-columns: 1fr 1fr;
-  margin-top: 5rem;
+  margin-top: 7rem;
   border-radius: 5px;
   box-shadow: 2px 8px 8px lightgray;
   background-color: #fff;
   transition: all ease-in 1s right;
 
-  @media screen and (max-width: 1300px){
+  @media screen and (max-width: 1100px){
+    height: 100vh;
     grid-template-rows: 50% 50%;
     grid-template-columns: 1fr;
-    height: 100vh;
+    margin-bottom: 2rem;
   }
   @media screen and (max-width: 411px){
     margin-top: 3rem;
-    height: 100vh;
+    min-width: 100vw;
+    margin: auto;
+    border-radius: none;
+    box-shadow: none;
   }
 }
-.form {
-  padding: 1rem 2rem;
+.contactForm {
+  margin: auto 1rem;
+  
   input{
     padding: 1rem .5rem;
     width: 100%;
     letter-spacing: 0.5px;
   }
   button{
-    margin: 1rem auto;
     padding: 1rem;
     width: 100%;
     border-radius: 5px;
@@ -49,12 +59,13 @@
     &:hover{
       background-color: #2f4c6ae5;
     }
+  }  
+  h2{
+    @media screen and (max-width: 411px){
+      font-size: 1.5rem;
+    }
   }
 }
-
-// .form-grid{
-//   width: 100%;
-// }
 .btn-holder{
   display: flex; 
   justify-content: center;
@@ -68,7 +79,6 @@
 
 .form-img{
   background-color: rgb(144, 219, 238);
-  padding: 20px;
-  margin: 1rem;
+  margin: 1rem 1rem 0 1rem;
 }
     
