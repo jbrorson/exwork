@@ -13,6 +13,10 @@
 
 html{
   background: #e9cdd2;
+  // @media screen and (max-width: 411px){
+  //   width: 100vw;
+  //   padding: 0;
+  // }
   // background: linear-gradient(to bottom, #e9cdd2, #ebb2bd);
 }
 
@@ -32,11 +36,11 @@ span {
 @media screen and (max-width: 411px){
   html{
       font-size: 70%;
-      display: flex; 
-      justify-content: center;
+      // display: flex; 
+      // justify-content: center;
   }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
   html{
       font-size: 90%;
   }

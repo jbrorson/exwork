@@ -25,8 +25,10 @@ function App() {
         <div className="lines-2"></div>
         <div className="lines-3"></div>
       </div>
-      <div className="main-content">
-        <div className="content">
+      <div>
+        <div>
+          {/* <div className="main-content">
+        <div className="content"> */}
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />

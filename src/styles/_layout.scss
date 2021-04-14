@@ -1,15 +1,14 @@
 .App {
-  min-width: 100%;
+  // min-width: 100%;
   .sidebar {
     top: 0;
     bottom:0;
     width: 20%;
     height: 100vh;
     background: #fff;
-    // background: #de778a;
     position: fixed;
-    box-shadow: 0 0 0 2px #e1e1e1;
-    // border-right: 2px solid #22619f;
+    box-shadow: 0 0 0.5rem 0 #00000040,
+    0 0.4em 1.25em 0 #00000026 !important;
     z-index: 11;
     color: #282828;
     transition: all .5s ease-out;
@@ -23,25 +22,25 @@
     }
   }
   .ham-toggle{
-    @media screen and (max-width: 1000px){
+    @media screen and (max-width: 1200px){
       transform: translateX(0);
     }
   }
 
   // Denna styling måste ändras om det ska bli snyggt i mobile view.. 
-//   .main-content{
-//     width: 80%;
-//     margin-left: 20%;
-//     background-color: #f7f7f7;
-//     min-height: 100vh;
-//     display: grid; 
-//     position: relative;
-//     @media screen and (max-width: 411px){
-//       width: 100%;
-//       margin-left: 0;
-//     }
-//   }
-// }
+  .main-content{
+    // width: 80%;
+    // margin-left: 20%;
+    // background-color: #f7f7f7;
+    // min-height: 100vh;
+    // display: grid; 
+    position: relative;
+    @media screen and (max-width: 411px){
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
 
 // .content{
 //   margin: 5rem 15rem;
@@ -88,4 +87,4 @@
       top: 4%;
     }
   }
-}}
+}

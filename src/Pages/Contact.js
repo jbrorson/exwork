@@ -40,9 +40,9 @@ const Contact = () => {
       <main className="Contact">
         <div className="form-wrapper">
           <div className="form-img"></div>
-          <form className="contactForm" id="contactForm" onSubmit={handleSubmit}>
+          <form className="form" id="form" onSubmit={handleSubmit}>
             <div className="form-grid">
-              <h2>Reach out to me by filling out this form</h2>
+              <h2>Reach out to me by filling in this form</h2>
               <p>
                 <label>Name</label>
                 <input
