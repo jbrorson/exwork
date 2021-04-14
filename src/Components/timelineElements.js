@@ -38,6 +38,24 @@ let timelineElements = [
     date: "FEB19-APR19",
     icon: "education",
   },
+  {
+    id: 5,
+    title: "EXAM - Frontend Developer",
+    companyName: "KYH",
+    description: "Graduated!! After 1,5 years of study I have now finished my polytechnic education.",
+    location: "Stockholm, Sweden",
+    date: "AUG19 - MAY21",
+    icon: "education",
+  },
+  {
+    id: 6,
+    title: "Course in C#",
+    companyName: "Nackademin",
+    description: "This was my first step to become a developer. I started my jurney with a basic C# course.",
+    location: "Stockholm, Sweden",
+    date: "FEB19-APR19",
+    icon: "education",
+  },
 ];
 
 export default timelineElements;
