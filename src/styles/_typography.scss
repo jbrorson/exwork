@@ -1,18 +1,28 @@
 .Home{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
   width: 80%;
+  @media screen and (max-width: 1000px){
+    left: 50%;
+    width: 100%;
+  }
 }
 
 .hero-text{
   color: inherit;
   text-align: center;
   font-size: 5rem;
+  @media screen and (max-width: 375px){
+    font-size: 3.5rem;
+    line-height: 6rem;
+    margin-top: 5rem;
+  }
 }
 
-.h-sub-text {
+.sub-text {
+  margin: auto 10%;
   text-align: center;
   padding: 2rem 0;
 }

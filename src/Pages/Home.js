@@ -10,7 +10,7 @@ function Home() {
           Hello, I am Josefine
           {/* <span> Brorson</span> */}
         </h1>
-        <p className="h-sub-text">
+        <p className="sub-text">
           Hej alla jag är Josefine, en frontend utvecklare baserad i vackra stockholm, sverige.
           Hej alla jag är Josefine, en frontend utvecklare baserad i vackra stockholm, sverige.
           Hej alla jag är Josefine, en frontend utvecklare baserad i vackra stockholm, sverige.
