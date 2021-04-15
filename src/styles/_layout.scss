@@ -57,17 +57,17 @@
   position: absolute;
   z-index: 10;
   right: 7%;
-  top: 7%;
+  top: 5%;
   width: 4rem;
   height: 4rem;
   display: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   cursor: pointer;
   .lines-1, .lines-2, .lines-3{
     height: .4rem;
-    width: 100%;
+    width: 80%;
     background-color: #282828;
     border-radius: 20px;
     pointer-events: none;
@@ -81,7 +81,7 @@
     .lines-1, .lines-2, .lines-3{
       display: block;
     }
-    @media screen and (max-width: 411px){
+    @media screen and (max-width: 375px){
       width: 3rem;
       height: 3rem;
       top: 4%;

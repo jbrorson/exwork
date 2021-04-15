@@ -3,10 +3,12 @@ import Title from '../Components/Title';
 
 function LatestWork() {
   return (
-    <div className="Portfolio">
+    <>
       <Title title={"Latest work"} span="Latest work" />
-      Displaya bilder i kort på tidigare arbeten..
-    </div>
+      <div className="Portfolio">
+        <h3>Displaya bilder i kort på tidigare arbeten..</h3>
+      </div>
+    </>
   )
 }
 

@@ -3,10 +3,12 @@ import Title from '../Components/Title';
 
 function About() {
   return (
-    <div className="About">
+    <>
       <Title title={"About Me"} span="About Me" />
-      Addera progressbar samt bilder eller liknande på skills
-    </div>
+      <div className="About">
+        <h3 className="heading">Addera progressbar samt bilder eller liknande på skills</h3>
+      </div>
+    </>
   )
 }
 
