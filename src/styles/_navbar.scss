@@ -66,6 +66,34 @@
     }
 }
 
+
+.icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .github {
+    font-size: 3rem;
+    cursor: pointer; 
+    padding-right: 10px;
+  }
+  
+  .github:hover {
+    font-size: 3.1rem;
+    color: #454444;
+  }
+  
+  .linkedin {
+    font-size: 3rem;
+    cursor: pointer; 
+    padding-left: 10px;
+  }
+  
+  .linkedin:hover {
+    font-size: 3.1rem;
+    color: #255be6;
+  }
+
 .active{
   background-color: #cad7e814;
 }

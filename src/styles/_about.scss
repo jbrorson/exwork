@@ -1,12 +1,10 @@
 .About{
-  width: 100vw;
-  height: 100vh;
   margin-top: 6rem;
   display: flex; 
   justify-content: center;
-  margin-left: 10%;
+  flex-direction: column;
   @media screen and (max-width: 1000px){
-    margin-left: 1rem;
+    margin-left: 0;
     height: 100vh;
     margin-top: 4rem;
   }
@@ -15,5 +13,56 @@
   }
 }
 .heading{
-  margin-top: 2rem;
+  // display: flex;
+  // justify-content: center;
+  margin-left: 50%;
+  padding-bottom: 1rem;
 }
+
+.summury-wrapper{
+  margin-left: 25%;
+  background: #fff;
+  // height: 70%;
+  width: 60%;
+  padding: .5rem;
+  border-radius: .2rem;
+  box-shadow: 0 0.25em 0.5em 0 #00000040;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  @media screen and (max-width: 1000px){
+    padding: .5rem 1.5rem;
+    height: 100%;
+    width: 70%;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr;
+  }
+  @media screen and (max-width: 375px){
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    box-shadow: none;
+    border-radius: 0px;
+    background: none;
+    }
+}
+
+.image{
+  background: gray;
+  
+}
+
+.summury-text-holder{
+  
+  background: coral;
+}
+
+.summury-list{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.btn-download{
+  background: black;
+  color: #fff;
+}
+

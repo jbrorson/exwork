@@ -2,6 +2,8 @@ import React from 'react';
 // import avatar from '../images/avatar.jpg';
 import { NavLink } from 'react-router-dom';
 import cartoon from '../images/cartoon.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Navbar() {
   return (
@@ -38,6 +40,10 @@ function Navbar() {
           </li>
         </ul>
         <footer className="footer">
+          <div className="icons">
+            <FontAwesomeIcon icon={faGithub} className="github" />
+            <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
+          </div>
           <p>
             @2021 Made by Jbrorson
           </p>

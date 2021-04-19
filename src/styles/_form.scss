@@ -1,12 +1,13 @@
 .Contact{
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   margin-top: 6rem;
+  margin-left: 10%;
+  margin-bottom: 6rem;
   display: flex; 
   justify-content: center;
-  margin-left: 10%;
   @media screen and (max-width: 1000px){
-    margin-left: 1rem;
+    margin-left: 0;
     height: 100vh;
     margin-top: 4rem;
   }
@@ -16,7 +17,7 @@
 }
 .form-wrapper{
   background: #fff;
-  height: 70%;
+  // height: 70%;
   width: 60%;
   padding: .5rem;
   border-radius: .2rem;
@@ -48,7 +49,7 @@
 
 .form{
   height: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
   // margin: auto 1rem;
   padding-left: .5rem;
   @media screen and (max-width: 1000px){
@@ -67,14 +68,14 @@
 .btn-holder{
   display: flex; 
   justify-content: center;
-  margin-top: 1rem;
+  margin: 1rem 0;
   button{
     padding: 1rem;
     width: 100%;
     border-radius: 5px;
     text-transform: uppercase;
     color: #fff;
-    background: #295482;
+    background: #3da3d5;
     border: none;
     letter-spacing: 0.5px;
     &:hover{

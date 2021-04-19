@@ -11,10 +11,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  // background: #fff;
 }
-
+// #4C5F9A;
 html{
-  background: #e9cdd2;
+  background-image: linear-gradient(to right, #faf5f5, #f7e0e4);
+  // background-image: #f4f4f4;
+  // background: #f7e0e4;
   // @media screen and (max-width: 411px){
   //   width: 100vw;
   //   padding: 0;
@@ -24,7 +27,10 @@ html{
 
 body{
   color: #282828;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  // font-size: 1.6rem;
+  // font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1.2rem;
   line-height: 2.2;
   letter-spacing: 0.5px;
@@ -49,10 +55,10 @@ span {
 }
 @media screen and (max-width: 480px){
   h2{
-      font-size: 70%;
+      font-size: 95%;
   }
   h3{
-      font-size: 70%;
+      font-size: 95%;
   }
   span{
     font-size: 70%;

@@ -10,10 +10,16 @@
   }
 }
 
+.hero{
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+}
+
 .hero-text{
   color: inherit;
   text-align: center;
-  font-size: 5rem;
+  font-size: 6rem;
   @media screen and (max-width: 375px){
     font-size: 3.5rem;
     line-height: 6rem;
@@ -21,35 +27,24 @@
   }
 }
 
-.sub-text {
-  margin: auto 10%;
+.sub-text{
   text-align: center;
-  padding: 2rem 0;
 }
 
-.icons {
-  display: flex;
-  justify-content: center;
+.btn-wrapper{
+  display: flex; 
+  justify-content: center; 
 }
 
-.github {
-  font-size: 3rem;
-  cursor: pointer; 
-  padding-right: 10px;
-}
-
-.github:hover {
-  font-size: 3.1rem;
-  color: #454444;
-}
-
-.linkedin {
-  font-size: 3rem;
-  cursor: pointer; 
-  padding-left: 10px;
-}
-
-.linkedin:hover {
-  font-size: 3.1rem;
-  color: #255be6;
+.home-btn{
+  margin-top: 2rem;
+  background: #3da3d5;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: 2px;
+  border: none;
+  width: 12rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
