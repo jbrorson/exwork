@@ -15,11 +15,13 @@
 .heading{
   // display: flex;
   // justify-content: center;
-  margin-left: 50%;
+  margin-left: 25%;
   padding-bottom: 1rem;
+  font-weight: 300;
 }
 
-.summury-wrapper{
+.about-section{
+  margin-bottom: 6rem;
   margin-left: 25%;
   background: #fff;
   // height: 70%;
@@ -51,18 +53,19 @@
   
 }
 
-.summury-text-holder{
-  
+.about-text-holder{
   background: coral;
 }
 
-.summury-list{
+.about-list{
   margin-top: 1rem;
   margin-left: 1rem;
+  list-style: none;
 }
 
 .btn-download{
   background: black;
   color: #fff;
 }
+
 
